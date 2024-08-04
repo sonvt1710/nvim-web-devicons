@@ -65,6 +65,12 @@ local icons_by_filename = {
     cterm_color = "56",
     name = "EslintIgnore",
   },
+  [".git-blame-ignore-revs"] = {
+    icon = "",
+    color = "#b83a1d",
+    cterm_color = "160",
+    name = "GitBlameIgnore",
+  },
   [".gitattributes"] = {
     icon = "",
     color = "#b83a1d",
@@ -121,8 +127,8 @@ local icons_by_filename = {
   },
   [".mailmap"] = {
     icon = "󰊢",
-    color = "#41535b",
-    cterm_color = "239",
+    color = "#b83a1d",
+    cterm_color = "160",
     name = "Mailmap",
   },
   [".npmignore"] = {
@@ -137,6 +143,12 @@ local icons_by_filename = {
     cterm_color = "161",
     name = "NPMrc",
   },
+  [".nuxtrc"] = {
+    icon = "󱄆",
+    color = "#00835f",
+    cterm_color = "29",
+    name = "NuxtConfig",
+  },
   [".nvmrc"] = {
     icon = "",
     color = "#3f6b34",
@@ -148,6 +160,42 @@ local icons_by_filename = {
     color = "#3264b7",
     cterm_color = "25",
     name = "PrettierConfig",
+  },
+  [".prettierrc.json"] = {
+    icon = "",
+    color = "#3264b7",
+    cterm_color = "25",
+    name = "PrettierConfig",
+  },
+  [".prettierrc.json5"] = {
+    icon = "",
+    color = "#3264b7",
+    cterm_color = "25",
+    name = "PrettierConfig",
+  },
+  [".prettierrc.toml"] = {
+    icon = "",
+    color = "#3264b7",
+    cterm_color = "25",
+    name = "PrettierConfig",
+  },
+  [".prettierrc.yaml"] = {
+    icon = "",
+    color = "#3264b7",
+    cterm_color = "25",
+    name = "PrettierConfig",
+  },
+  [".prettierrc.yml"] = {
+    icon = "",
+    color = "#3264b7",
+    cterm_color = "25",
+    name = "PrettierConfig",
+  },
+  [".prettierignore"] = {
+    icon = "",
+    color = "#3264b7",
+    cterm_color = "25",
+    name = "PrettierIgnore",
   },
   [".settings.json"] = {
     icon = "",
@@ -269,6 +317,18 @@ local icons_by_filename = {
     cterm_color = "160",
     name = "GitCommit",
   },
+  ["commitlint.config.js"] = {
+    icon = "󰜘",
+    color = "#207067",
+    cterm_color = "23",
+    name = "CommitlintConfig",
+  },
+  ["commitlint.config.ts"] = {
+    icon = "󰜘",
+    color = "#207067",
+    cterm_color = "23",
+    name = "CommitlintConfig",
+  },
   ["compose.yaml"] = {
     icon = "󰡨",
     color = "#2e5f99",
@@ -323,6 +383,30 @@ local icons_by_filename = {
     cterm_color = "25",
     name = "Dockerfile",
   },
+  ["eslint.config.cjs"] = {
+    icon = "",
+    color = "#4b32c3",
+    cterm_color = "56",
+    name = "Eslintrc",
+  },
+  ["eslint.config.js"] = {
+    icon = "",
+    color = "#4b32c3",
+    cterm_color = "56",
+    name = "Eslintrc",
+  },
+  ["eslint.config.mjs"] = {
+    icon = "",
+    color = "#4b32c3",
+    cterm_color = "56",
+    name = "Eslintrc",
+  },
+  ["eslint.config.ts"] = {
+    icon = "",
+    color = "#4b32c3",
+    cterm_color = "56",
+    name = "Eslintrc",
+  },
   ["ext_typoscript_setup.txt"] = {
     icon = "",
     color = "#aa5a00",
@@ -364,6 +448,24 @@ local icons_by_filename = {
     color = "#526064",
     cterm_color = "59",
     name = "Makefile",
+  },
+  ["go.mod"] = {
+    icon = "",
+    color = "#36677c",
+    cterm_color = "24",
+    name = "GoMod",
+  },
+  ["go.sum"] = {
+    icon = "",
+    color = "#36677c",
+    cterm_color = "24",
+    name = "GoSum",
+  },
+  ["go.work"] = {
+    icon = "",
+    color = "#36677c",
+    cterm_color = "24",
+    name = "GoWork",
   },
   ["gradlew"] = {
     icon = "",
@@ -443,11 +545,35 @@ local icons_by_filename = {
     cterm_color = "88",
     name = "Gulpfile",
   },
+  ["hypridle.conf"] = {
+    icon = "",
+    color = "#008082",
+    cterm_color = "30",
+    name = "Hypridle",
+  },
   ["hyprland.conf"] = {
     icon = "",
     color = "#008082",
     cterm_color = "30",
     name = "Hyprland",
+  },
+  ["hyprlock.conf"] = {
+    icon = "",
+    color = "#008082",
+    cterm_color = "30",
+    name = "Hyprlock",
+  },
+  ["i18n.config.js"] = {
+    icon = "󰗊",
+    color = "#515987",
+    cterm_color = "60",
+    name = "I18nConfig",
+  },
+  ["i18n.config.ts"] = {
+    icon = "󰗊",
+    color = "#515987",
+    cterm_color = "60",
+    name = "I18nConfig",
   },
   ["i3blocks.conf"] = {
     icon = "",
@@ -460,6 +586,12 @@ local icons_by_filename = {
     color = "#2e2f30",
     cterm_color = "236",
     name = "i3",
+  },
+  ["ionic.config.json"] = {
+    icon = "",
+    color = "#355fa5",
+    cterm_color = "25",
+    name = "Ionic",
   },
   ["cantorrc"] = {
     icon = "",
@@ -551,6 +683,30 @@ local icons_by_filename = {
     cterm_color = "161",
     name = "NodeModules",
   },
+  ["nuxt.config.cjs"] = {
+    icon = "󱄆",
+    color = "#00835f",
+    cterm_color = "29",
+    name = "NuxtConfig",
+  },
+  ["nuxt.config.js"] = {
+    icon = "󱄆",
+    color = "#00835f",
+    cterm_color = "29",
+    name = "NuxtConfig",
+  },
+  ["nuxt.config.mjs"] = {
+    icon = "󱄆",
+    color = "#00835f",
+    cterm_color = "29",
+    name = "NuxtConfig",
+  },
+  ["nuxt.config.ts"] = {
+    icon = "󱄆",
+    color = "#00835f",
+    cterm_color = "29",
+    name = "NuxtConfig",
+  },
   ["package.json"] = {
     icon = "",
     color = "#ae1d38",
@@ -580,6 +736,30 @@ local icons_by_filename = {
     color = "#7a0d21",
     cterm_color = "52",
     name = "Maven",
+  },
+  ["prettier.config.js"] = {
+    icon = "",
+    color = "#3264b7",
+    cterm_color = "25",
+    name = "PrettierConfig",
+  },
+  ["prettier.config.cjs"] = {
+    icon = "",
+    color = "#3264b7",
+    cterm_color = "25",
+    name = "PrettierConfig",
+  },
+  ["prettier.config.mjs"] = {
+    icon = "",
+    color = "#3264b7",
+    cterm_color = "25",
+    name = "PrettierConfig",
+  },
+  ["prettier.config.ts"] = {
+    icon = "",
+    color = "#3264b7",
+    cterm_color = "25",
+    name = "PrettierConfig",
   },
   ["procfile"] = {
     icon = "",
@@ -628,6 +808,12 @@ local icons_by_filename = {
     color = "#36677c",
     cterm_color = "24",
     name = "Rmd",
+  },
+  ["robots.txt"] = {
+    icon = "󰚩",
+    color = "#465470",
+    cterm_color = "60",
+    name = "RobotsTxt",
   },
   ["svelte.config.js"] = {
     icon = "",
@@ -700,6 +886,12 @@ local icons_by_filename = {
     color = "#9f5100",
     cterm_color = "130",
     name = "VLC",
+  },
+  ["vercel.json"] = {
+    icon = "▲",
+    color = "#333333",
+    cterm_color = "236",
+    name = "Vercel",
   },
   ["webpack"] = {
     icon = "󰜫",
@@ -805,6 +997,12 @@ local icons_by_file_extension = {
     color = "#0075aa",
     cterm_color = "24",
     name = "MonkeysAudio",
+  },
+  ["apl"] = {
+    icon = "⍝",
+    color = "#805200",
+    cterm_color = "94",
+    name = "APL",
   },
   ["ai"] = {
     icon = "",
@@ -931,6 +1129,12 @@ local icons_by_file_extension = {
     color = "#6b4d83",
     cterm_color = "96",
     name = "Bmp",
+  },
+  ["bqn"] = {
+    icon = "⎉",
+    color = "#20544d",
+    cterm_color = "23",
+    name = "BQN",
   },
   ["blp"] = {
     icon = "󰺾",
@@ -1586,6 +1790,12 @@ local icons_by_file_extension = {
     cterm_color = "94",
     name = "BinaryGLTF",
   },
+  ["gleam"] = {
+    icon = "",
+    color = "#553a51",
+    cterm_color = "53",
+    name = "Gleam",
+  },
   ["gnumakefile"] = {
     icon = "",
     color = "#526064",
@@ -1609,6 +1819,12 @@ local icons_by_file_extension = {
     color = "#ac2880",
     cterm_color = "126",
     name = "GraphQL",
+  },
+  ["gradle"] = {
+    icon = "",
+    color = "#005f87",
+    cterm_color = "24",
+    name = "Gradle",
   },
   ["graphql"] = {
     icon = "",
@@ -2534,6 +2750,12 @@ local icons_by_file_extension = {
     cterm_color = "236",
     name = "Pyo",
   },
+  ["pyw"] = {
+    icon = "",
+    color = "#3c6f98",
+    cterm_color = "24",
+    name = "Pyw",
+  },
   ["pyx"] = {
     icon = "",
     color = "#3c6f98",
@@ -3205,6 +3427,18 @@ local icons_by_file_extension = {
     color = "#5b5b5b",
     cterm_color = "240",
     name = "VRML",
+  },
+  ["wv"] = {
+    icon = "",
+    color = "#0075aa",
+    cterm_color = "24",
+    name = "WavPack",
+  },
+  ["wvc"] = {
+    icon = "",
+    color = "#0075aa",
+    cterm_color = "24",
+    name = "WavPackCorrection",
   },
   ["x"] = {
     icon = "",
