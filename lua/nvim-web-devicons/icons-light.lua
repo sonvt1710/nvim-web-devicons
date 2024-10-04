@@ -149,6 +149,18 @@ local icons_by_filename = {
     cterm_color = "25",
     name = "PrettierConfig",
   },
+  [".prettierrc.cjs"] = {
+    icon = "",
+    color = "#3264b7",
+    cterm_color = "25",
+    name = "PrettierConfig",
+  },
+  [".prettierrc.js"] = {
+    icon = "",
+    color = "#3264b7",
+    cterm_color = "25",
+    name = "PrettierConfig",
+  },
   [".prettierrc.json"] = {
     icon = "",
     color = "#3264b7",
@@ -156,6 +168,12 @@ local icons_by_filename = {
     name = "PrettierConfig",
   },
   [".prettierrc.json5"] = {
+    icon = "",
+    color = "#3264b7",
+    cterm_color = "25",
+    name = "PrettierConfig",
+  },
+  [".prettierrc.mjs"] = {
     icon = "",
     color = "#3264b7",
     cterm_color = "25",
@@ -256,12 +274,6 @@ local icons_by_filename = {
     color = "#017226",
     cterm_color = "22",
     name = "Vimrc",
-  },
-  ["R"] = {
-    icon = "󰟔",
-    color = "#1a4c8c",
-    cterm_color = "25",
-    name = "R",
   },
   ["avif"] = {
     icon = "",
@@ -575,6 +587,12 @@ local icons_by_filename = {
     cterm_color = "30",
     name = "Hyprlock",
   },
+  ["hyprpaper.conf"] = {
+    icon = "",
+    color = "#008082",
+    cterm_color = "30",
+    name = "Hyprpaper",
+  },
   ["i18n.config.js"] = {
     icon = "󰗊",
     color = "#515987",
@@ -808,12 +826,6 @@ local icons_by_filename = {
     color = "#2b8937",
     cterm_color = "28",
     name = "Qt",
-  },
-  ["r"] = {
-    icon = "󰟔",
-    color = "#1a4c8c",
-    cterm_color = "25",
-    name = "R",
   },
   ["rakefile"] = {
     icon = "",
@@ -1550,6 +1562,12 @@ local icons_by_file_extension = {
     cterm_color = "94",
     name = "Ebook",
   },
+  ["ebuild"] = {
+    icon = "",
+    color = "#4C416E",
+    cterm_color = "60",
+    name = "GentooBuild",
+  },
   ["edn"] = {
     icon = "",
     color = "#36677c",
@@ -1945,6 +1963,12 @@ local icons_by_file_extension = {
     color = "#6b4d83",
     cterm_color = "96",
     name = "Hs",
+  },
+  ["http"] = {
+    icon = "",
+    color = "#006a95",
+    cterm_color = "24",
+    name = "HTTP",
   },
   ["htm"] = {
     icon = "",
