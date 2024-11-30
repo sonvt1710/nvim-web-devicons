@@ -311,6 +311,12 @@ local icons_by_filename = {
     cterm_color = "94",
     name = "ZigObjectNotation",
   },
+  ["bun.lockb"] = {
+    icon = "",
+    color = "#4e4946",
+    cterm_color = "239",
+    name = "BunLockfile",
+  },
   ["checkhealth"] = {
     icon = "󰓙",
     color = "#3a5a7e",
@@ -1021,6 +1027,18 @@ local icons_by_file_extension = {
     color = "#0075aa",
     cterm_color = "24",
     name = "AdvancedAudioCoding",
+  },
+  ["adb"] = {
+    icon = "",
+    color = "#118080",
+    cterm_color = "30",
+    name = "AdaBody",
+  },
+  ["ads"] = {
+    icon = "",
+    color = "#333333",
+    cterm_color = "236",
+    name = "AdaSpecification",
   },
   ["aif"] = {
     icon = "",
@@ -1867,6 +1885,12 @@ local icons_by_file_extension = {
     color = "#526064",
     cterm_color = "59",
     name = "GodotProject",
+  },
+  ["gpr"] = {
+    icon = "",
+    color = "#aa22aa",
+    cterm_color = "127",
+    name = "GPRBuildProject",
   },
   ["gql"] = {
     icon = "",
