@@ -17,6 +17,30 @@ local icons_by_filename = {
     cterm_color = "22",
     name = "Bashrc",
   },
+  [".clang-format"] = {
+    icon = "",
+    color = "#526064",
+    cterm_color = "59",
+    name = "ClangConfig",
+  },
+  [".clang-tidy"] = {
+    icon = "",
+    color = "#526064",
+    cterm_color = "59",
+    name = "ClangConfig",
+  },
+  [".codespellrc"] = {
+    icon = "󰓆",
+    color = "#239140",
+    cterm_color = "28",
+    name = "Codespell",
+  },
+  [".condarc"] = {
+    icon = "",
+    color = "#2d751c",
+    cterm_color = "28",
+    name = "Conda",
+  },
   [".dockerignore"] = {
     icon = "󰡨",
     color = "#2e5f99",
@@ -107,6 +131,12 @@ local icons_by_filename = {
     cterm_color = "59",
     name = "Justfile",
   },
+  [".luacheckrc"] = {
+    icon = "",
+    color = "#007abf",
+    cterm_color = "32",
+    name = "Luaurc",
+  },
   [".luaurc"] = {
     icon = "",
     color = "#007abf",
@@ -118,6 +148,12 @@ local icons_by_filename = {
     color = "#b83a1d",
     cterm_color = "160",
     name = "Mailmap",
+  },
+  [".nanorc"] = {
+    icon = "",
+    color = "#440077",
+    cterm_color = "54",
+    name = "Nano",
   },
   [".npmignore"] = {
     icon = "",
@@ -142,6 +178,12 @@ local icons_by_filename = {
     color = "#3f6b34",
     cterm_color = "22",
     name = "node",
+  },
+  [".pre-commit-config.yaml"] = {
+    icon = "󰛢",
+    color = "#7c5a12",
+    cterm_color = "94",
+    name = "PreCommitConfig",
   },
   [".prettierrc"] = {
     icon = "",
@@ -202,6 +244,12 @@ local icons_by_filename = {
     color = "#3264b7",
     cterm_color = "25",
     name = "PrettierIgnore",
+  },
+  [".pylintrc"] = {
+    icon = "",
+    color = "#526064",
+    cterm_color = "59",
+    name = "PyLintConfig",
   },
   [".settings.json"] = {
     icon = "",
@@ -311,6 +359,12 @@ local icons_by_filename = {
     cterm_color = "94",
     name = "ZigObjectNotation",
   },
+  ["bun.lockb"] = {
+    icon = "",
+    color = "#4e4946",
+    cterm_color = "239",
+    name = "BunLockfile",
+  },
   ["checkhealth"] = {
     icon = "󰓙",
     color = "#3a5a7e",
@@ -318,9 +372,9 @@ local icons_by_filename = {
     name = "Checkhealth",
   },
   ["cmakelists.txt"] = {
-    icon = "",
-    color = "#526064",
-    cterm_color = "59",
+    icon = "",
+    color = "#2c2d2f",
+    cterm_color = "236",
     name = "CMakeLists",
   },
   ["code_of_conduct"] = {
@@ -461,7 +515,7 @@ local icons_by_filename = {
     cterm_color = "88",
     name = "FreeCADConfig",
   },
-  ["gemfile$"] = {
+  ["Gemfile"] = {
     icon = "",
     color = "#701516",
     cterm_color = "52",
@@ -833,6 +887,18 @@ local icons_by_filename = {
     cterm_color = "52",
     name = "Rakefile",
   },
+  ["readme"] = {
+    icon = "󰂺",
+    color = "#2f2f2f",
+    cterm_color = "236",
+    name = "Readme",
+  },
+  ["readme.md"] = {
+    icon = "󰂺",
+    color = "#2f2f2f",
+    cterm_color = "236",
+    name = "Readme",
+  },
   ["rmd"] = {
     icon = "",
     color = "#36677c",
@@ -923,7 +989,7 @@ local icons_by_filename = {
     cterm_color = "58",
     name = "License",
   },
-  ["vagrantfile$"] = {
+  ["vagrantfile"] = {
     icon = "",
     color = "#104abf",
     cterm_color = "26",
@@ -936,7 +1002,7 @@ local icons_by_filename = {
     name = "VLC",
   },
   ["vercel.json"] = {
-    icon = "▲",
+    icon = "",
     color = "#333333",
     cterm_color = "236",
     name = "Vercel",
@@ -1022,6 +1088,18 @@ local icons_by_file_extension = {
     cterm_color = "24",
     name = "AdvancedAudioCoding",
   },
+  ["adb"] = {
+    icon = "",
+    color = "#118080",
+    cterm_color = "30",
+    name = "AdaBody",
+  },
+  ["ads"] = {
+    icon = "",
+    color = "#333333",
+    cterm_color = "236",
+    name = "AdaSpecification",
+  },
   ["aif"] = {
     icon = "",
     color = "#0075aa",
@@ -1041,9 +1119,9 @@ local icons_by_file_extension = {
     name = "MonkeysAudio",
   },
   ["apl"] = {
-    icon = "⍝",
-    color = "#805200",
-    cterm_color = "94",
+    icon = "",
+    color = "#1b7936",
+    cterm_color = "28",
     name = "APL",
   },
   ["ai"] = {
@@ -1173,10 +1251,10 @@ local icons_by_file_extension = {
     name = "Bmp",
   },
   ["bqn"] = {
-    icon = "⎉",
-    color = "#20544d",
-    cterm_color = "23",
-    name = "BQN",
+    icon = "",
+    color = "#1b7936",
+    cterm_color = "28",
+    name = "APL",
   },
   ["blp"] = {
     icon = "󰺾",
@@ -1239,7 +1317,7 @@ local icons_by_file_extension = {
     name = "Asciinema",
   },
   ["cbl"] = {
-    icon = "⚙",
+    icon = "",
     color = "#005ca5",
     cterm_color = "25",
     name = "Cobol",
@@ -1293,19 +1371,19 @@ local icons_by_file_extension = {
     name = "ClojureDart",
   },
   ["cmake"] = {
-    icon = "",
-    color = "#526064",
-    cterm_color = "59",
+    icon = "",
+    color = "#2c2d2f",
+    cterm_color = "236",
     name = "CMake",
   },
   ["cob"] = {
-    icon = "⚙",
+    icon = "",
     color = "#005ca5",
     cterm_color = "25",
     name = "Cobol",
   },
   ["cobol"] = {
-    icon = "⚙",
+    icon = "",
     color = "#005ca5",
     cterm_color = "25",
     name = "Cobol",
@@ -1315,6 +1393,12 @@ local icons_by_file_extension = {
     color = "#666620",
     cterm_color = "58",
     name = "Coffee",
+  },
+  ["conda"] = {
+    icon = "",
+    color = "#2d751c",
+    cterm_color = "28",
+    name = "Conda",
   },
   ["conf"] = {
     icon = "",
@@ -1353,7 +1437,7 @@ local icons_by_file_extension = {
     name = "Cppm",
   },
   ["cpy"] = {
-    icon = "⚙",
+    icon = "",
     color = "#005ca5",
     cterm_color = "25",
     name = "Cobol",
@@ -1450,8 +1534,8 @@ local icons_by_file_extension = {
   },
   ["d"] = {
     icon = "",
-    color = "#325a13",
-    cterm_color = "22",
+    color = "#842b25",
+    cterm_color = "88",
     name = "D",
   },
   ["d.ts"] = {
@@ -1754,6 +1838,12 @@ local icons_by_file_extension = {
     cterm_color = "23",
     name = "Fdmdownload",
   },
+  ["fish"] = {
+    icon = "",
+    color = "#3a4446",
+    cterm_color = "238",
+    name = "Fish",
+  },
   ["flac"] = {
     icon = "",
     color = "#005880",
@@ -1778,11 +1868,29 @@ local icons_by_file_extension = {
     cterm_color = "236",
     name = "Fennel",
   },
-  ["fish"] = {
-    icon = "",
-    color = "#3a4446",
-    cterm_color = "238",
-    name = "Fish",
+  ["fodg"] = {
+    icon = "",
+    color = "#333211",
+    cterm_color = "236",
+    name = "LibreOfficeGraphics",
+  },
+  ["fodp"] = {
+    icon = "",
+    color = "#7f4e22",
+    cterm_color = "94",
+    name = "LibreOfficeImpress",
+  },
+  ["fods"] = {
+    icon = "",
+    color = "#28541a",
+    cterm_color = "22",
+    name = "LibreOfficeCalc",
+  },
+  ["fodt"] = {
+    icon = "",
+    color = "#16667e",
+    cterm_color = "24",
+    name = "LibreOfficeWriter",
   },
   ["fs"] = {
     icon = "",
@@ -1867,6 +1975,12 @@ local icons_by_file_extension = {
     color = "#526064",
     cterm_color = "59",
     name = "GodotProject",
+  },
+  ["gpr"] = {
+    icon = "",
+    color = "#aa22aa",
+    cterm_color = "127",
+    name = "GPRBuildProject",
   },
   ["gql"] = {
     icon = "",
@@ -2103,9 +2217,9 @@ local icons_by_file_extension = {
     name = "Iso",
   },
   ["ipynb"] = {
-    icon = "",
-    color = "#366b8a",
-    cterm_color = "24",
+    icon = "",
+    color = "#a35301",
+    cterm_color = "130",
     name = "Notebook",
   },
   ["java"] = {
@@ -2421,7 +2535,7 @@ local icons_by_file_extension = {
     name = "Markdown",
   },
   ["material"] = {
-    icon = "󰔉",
+    icon = "",
     color = "#8a2b72",
     cterm_color = "89",
     name = "Material",
@@ -2493,7 +2607,7 @@ local icons_by_file_extension = {
     name = "ObjectiveCPlusPlus",
   },
   ["mo"] = {
-    icon = "∞",
+    icon = "",
     color = "#654ca7",
     cterm_color = "61",
     name = "Motoko",
@@ -2583,7 +2697,7 @@ local icons_by_file_extension = {
     name = "Nswag",
   },
   ["nu"] = {
-    icon = ">",
+    icon = "",
     color = "#276f4e",
     cterm_color = "29",
     name = "Nushell",
@@ -2599,6 +2713,42 @@ local icons_by_file_extension = {
     color = "#5b5b5b",
     cterm_color = "240",
     name = "3DObjectFile",
+  },
+  ["odf"] = {
+    icon = "",
+    color = "#aa3c64",
+    cterm_color = "125",
+    name = "LibreOfficeFormula",
+  },
+  ["odg"] = {
+    icon = "",
+    color = "#333211",
+    cterm_color = "236",
+    name = "LibreOfficeGraphics",
+  },
+  ["odin"] = {
+    icon = "󰟢",
+    color = "#2a629e",
+    cterm_color = "25",
+    name = "Odin",
+  },
+  ["odp"] = {
+    icon = "",
+    color = "#7f4e22",
+    cterm_color = "94",
+    name = "LibreOfficeImpress",
+  },
+  ["ods"] = {
+    icon = "",
+    color = "#28541a",
+    cterm_color = "22",
+    name = "LibreOfficeCalc",
+  },
+  ["odt"] = {
+    icon = "",
+    color = "#16667e",
+    cterm_color = "24",
+    name = "LibreOfficeWriter",
   },
   ["ogg"] = {
     icon = "",
@@ -2719,6 +2869,12 @@ local icons_by_file_extension = {
     color = "#983826",
     cterm_color = "124",
     name = "Ppt",
+  },
+  ["pptx"] = {
+    icon = "󰈧",
+    color = "#983826",
+    cterm_color = "124",
+    name = "Pptx",
   },
   ["prisma"] = {
     icon = "",
@@ -3009,13 +3165,13 @@ local icons_by_file_extension = {
     name = "Sha512",
   },
   ["sig"] = {
-    icon = "λ",
+    icon = "󰘧",
     color = "#975122",
     cterm_color = "130",
     name = "Sig",
   },
   ["signature"] = {
-    icon = "λ",
+    icon = "󰘧",
     color = "#975122",
     cterm_color = "130",
     name = "Signature",
@@ -3057,7 +3213,7 @@ local icons_by_file_extension = {
     name = "SolveSpace",
   },
   ["sml"] = {
-    icon = "λ",
+    icon = "󰘧",
     color = "#975122",
     cterm_color = "130",
     name = "Sml",
@@ -3356,6 +3512,12 @@ local icons_by_file_extension = {
     cterm_color = "94",
     name = "Txz",
   },
+  ["typ"] = {
+    icon = "",
+    color = "#097d80",
+    cterm_color = "30",
+    name = "Typst",
+  },
   ["typoscript"] = {
     icon = "",
     color = "#aa5a00",
@@ -3381,8 +3543,8 @@ local icons_by_file_extension = {
     name = "Verilog",
   },
   ["vala"] = {
-    icon = "",
-    color = "#562b86",
+    icon = "",
+    color = "#5c2e8b",
     cterm_color = "54",
     name = "Vala",
   },
@@ -3403,6 +3565,12 @@ local icons_by_file_extension = {
     color = "#017226",
     cterm_color = "22",
     name = "VHDL",
+  },
+  ["vi"] = {
+    icon = "",
+    color = "#554203",
+    cterm_color = "58",
+    name = "LabView",
   },
   ["vim"] = {
     icon = "",
@@ -3791,6 +3959,12 @@ local icons_by_operating_system = {
     cterm_color = "24",
     name = "Kubuntu",
   },
+  ["leap"] = {
+    icon = "",
+    color = "#54421f",
+    cterm_color = "58",
+    name = "Leap",
+  },
   ["locos"] = {
     icon = "",
     color = "#7d5a01",
@@ -3832,6 +4006,12 @@ local icons_by_operating_system = {
     color = "#3d586e",
     cterm_color = "24",
     name = "NixOS",
+  },
+  ["nobara"] = {
+    icon = "",
+    color = "#333333",
+    cterm_color = "236",
+    name = "NobaraLinux",
   },
   ["openbsd"] = {
     icon = "",
@@ -3928,6 +4108,12 @@ local icons_by_operating_system = {
     color = "#0f58b6",
     cterm_color = "25",
     name = "TrisquelGNULinux",
+  },
+  ["tumbleweed"] = {
+    icon = "",
+    color = "#237b72",
+    cterm_color = "30",
+    name = "Tumbleweed",
   },
   ["ubuntu"] = {
     icon = "",
@@ -4066,6 +4252,12 @@ local icons_by_window_manager = {
     color = "#333333",
     cterm_color = "236",
     name = "Qtile",
+  },
+  ["river"] = {
+    icon = "",
+    color = "#000000",
+    cterm_color = "16",
+    name = "river",
   },
   ["sway"] = {
     icon = "",
